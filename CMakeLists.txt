@@ -21,6 +21,7 @@ endif ()
 #Source files
 set(SOURCES
     main.cpp
+        src/Resource.cpp
 )
 #Define the executable target
 add_executable(cpp-opp-review ${SOURCES})
